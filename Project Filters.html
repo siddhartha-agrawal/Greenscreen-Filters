@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Filters-A mini Project</title>
+        <link rel="icon" href="search.png" type="image/x-icon">
+        <link rel="stylesheet" href="Project Filters.css">
+        <script src="Project Filters.js"></script>
+        <script type="text/javascript" src="DLTP JS SRC.js">
+        </script>
+    </head>
+    <body>
+        <div id="div1">
+        <p id="header">
+            Filters! A Click Away....
+        </p>
+        </div>
+    <hr class="line">
+        <div id="div2" style="border:none;border-radius: 20px; background-color: whitesmoke;">
+            <p><canvas id="can1" class="canva">
+
+            </canvas>
+            <canvas id="can2" class="canva">
+
+            </canvas>
+        </p>
+        </div>
+        <hr class="line"> 
+        <div style="text-align: center; border:none;border-radius: 10px; background-color: rgb(3, 175, 175);">
+            <p id="options">Foreground Image:
+            <input type="file" id="fbutton" class="but" multiple="false" accept="image/*" onchange="uploadforeground()"><br>
+            Background Image:
+            <input type="file" id="bbutton" class="but" multiple="false" accept="image/*" onchange="uploadbackground()"><br>
+            For Greenscreen Effect:
+            <input type="button" id="greenscreen" class="but" value="Combine" ondblclick="combine()"><br>
+            Filters:
+            <input type="button" class="but" id="bnw" value="Black and White" onclick="doBlackandwhite()">
+            <input type="button" class="but" id="red" value="Red" onclick="doRed()">
+            <input type="button" class="but" id="green" value="Green" onclick="doGreen()">
+            <input type="button" class="but" id="blue" value="Blue" onclick="doBlue()"><br>
+            Clear:
+            <input type="button" class="but" id="clr" value="Reset" onclick="reset()">
+            </p>
+        </div>
+    </body>
+</html>

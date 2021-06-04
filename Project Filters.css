@@ -1,0 +1,82 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: rgb(3, 175, 175);;
+}
+.line{
+    background-color:rgb(243, 109, 0) ;
+    border:0.2em  solid black ;
+    border-radius: 0.5em;
+}
+#header{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.6em;
+    border:0.3em ;
+    text-align: center;
+    margin:auto;
+    color: rgb(37, 32, 21);
+}
+.canva{
+    background-color: black;
+    border: 0.5em solid rgb(243, 109, 0);
+    border-radius: 1em;
+    height:30em;
+    width: 30em;
+    margin: 3.7em;
+}
+.but{
+    color: brown;
+    text-align: center;
+    border:none;
+    border-radius: 4px;
+    background-color:rgb(0, 233, 175);
+    transition: 0.5s;
+    cursor:pointer;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#div1{
+    border:none;
+
+    border-radius: 1em;
+}
+.but:hover{
+    color:black;
+    background-color: rgb(153, 153, 238);
+    opacity: 0.7;
+    font-size: 23px;;   
+}
+#greenscreen:hover{
+    color:white;
+    background:radial-gradient(rgb(255, 119, 119),orange,red);
+    opacity: 0.8;
+    font-size: 23px;
+}
+#bnw:hover{
+    color:rgb(3, 1, 1);
+    background: linear-gradient(black,white);
+    font-size: 23px;
+}
+#red:hover{
+    color:white;
+    background-color:rgb(255, 21, 21);
+    opacity: 0.7;
+    font-size: 23px;
+}
+#green:hover{
+    color:white;
+    background-color:rgb(1, 112, 29);
+    opacity: 0.7;
+    font-size: 23px;
+}
+#blue:hover{
+    color:white;
+    background-color:rgb(2, 2, 228);
+    opacity: 0.7;
+    font-size: 23px;
+}
+#options{
+    font-family: cursive;
+    font-size: 23px;
+}
